@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">UnitSatuan</string>
+    <string name="welcome">Welcome</string>
+    <string name="please_login_with_your_information">please login with your information</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="e_arsip_surat">E-Arsip Surat Unit Satuan</string>
+
+    <string name="shared_preferences_name_login" translatable="false">default_shared_preferences_login</string>
+    <string name="shared_preferences_name_surat" translatable="false">default_shared_preferences_surat</string>
+    <string name="tanggal_surat">Tanggal Surat</string>
+    <string name="perihal">Perihal</string>
+    <string name="diteruskan_kepada">Diteruskan Kepada</string>
+
+    <string name="tab_text_1">Deskripsi</string>
+    <string name="tab_text_2">Surat</string>
+    <string name="tab_text_3">Lampiran</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="klasifikasi">Klasifikasi</string>
+    <string name="derajat">Derajat</string>
+    <string name="nomor_agenda">Nomor Agenda</string>
+    <string name="diterima_tgl">Diterima Tanggal</string>
+    <string name="surat_dari">Surat Dari</string>
+    <string name="nomor_surat">Nomor Surat</string>
+    <string name="isi_disposisi">Isi Disposisi</string>
+
+</resources>

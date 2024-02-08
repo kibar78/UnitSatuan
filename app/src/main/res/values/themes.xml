@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.UnitSatuan" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="colorPrimary">#1B1A17</item>
+        <item name="colorOnPrimary">#F0A500</item>
+        <item name="colorPrimaryContainer">#E45826</item>
+        <item name="colorOnPrimaryContainer">#E6D5B8</item>
+
+        <item name="colorSecondary">#2C2D34</item>
+        <item name="colorOnSecondary">#E94822</item>
+        <item name="colorSecondaryContainer">#F2910A</item>
+        <item name="colorOnSecondaryContainer">#EFD510</item>
+
+        <item name="colorTertiary">#1A2634</item>
+        <item name="colorOnTertiary">#203E5F</item>
+        <item name="colorTertiaryContainer">#FFCC00</item>
+        <item name="colorOnTertiaryContainer">#FEE5B1</item>
+
+    </style>
+
+    <style name="Theme.UnitSatuan" parent="Base.Theme.UnitSatuan" />
+</resources>
