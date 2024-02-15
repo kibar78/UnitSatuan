@@ -1,5 +1,6 @@
 package com.example.unitsatuan.ui.detail
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
@@ -21,8 +22,15 @@ class DetailSuratMasukActivity : AppCompatActivity() {
             R.string.tab_text_2,
             R.string.tab_text_3,
         )
+
+        private val TAB_ICON = intArrayOf(
+            R.drawable.ic_description_24,
+            R.drawable.ic_mail_24,
+            R.drawable.ic_mail_24,
+        )
     }
 
+    @SuppressLint("UseCompatLoadingForDrawables")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityDetailSuratMasukBinding.inflate(layoutInflater)
@@ -35,6 +43,7 @@ class DetailSuratMasukActivity : AppCompatActivity() {
         val tabs: TabLayout = binding.tabs
         TabLayoutMediator(tabs, viewPager) { tab, position ->
             tab.text = resources.getString(TAB_TITLES[position])
+            tab.icon = resources.getDrawable(TAB_ICON[position])
         }.attach()
     }
 }
