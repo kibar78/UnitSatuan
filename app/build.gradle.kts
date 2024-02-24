@@ -67,4 +67,7 @@ dependencies {
 
     //Glide
     implementation("com.github.bumptech.glide:glide:4.16.0")
+
+    //save to pdf
+    implementation("com.itextpdf:itextpdf:5.5.10")
 }

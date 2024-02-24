@@ -17,7 +17,8 @@ import com.google.gson.Gson
 import kotlinx.coroutines.launch
 
 class MainViewModel(private val suratRepository: SuratRepository,
-                    private val application: Application): ViewModel() {
+                    private val application: Application): ViewModel()
+{
 
     private val _uiStateSuratMasuk = MutableLiveData<Result<List<SuratMasukItem?>>>()
     val uiStateSuratMasuk: LiveData<Result<List<SuratMasukItem?>>> = _uiStateSuratMasuk
